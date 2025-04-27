@@ -8,6 +8,7 @@ html , body{
     margin: 0;
     padding: 0;
     font: 20px;
+    scroll-behavior: smooth;
 }
 *{
     box-sizing: border-box;
@@ -342,4 +343,9 @@ footer{
     position:relative;
     display: flex;
     flex-direction: row;
+}
+ nav{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
